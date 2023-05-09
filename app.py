@@ -32,7 +32,7 @@ if st.button('Predict'):
     prediction = lr.predict(query_point_transformed)
     if prediction == 0:
         st.success("You don't have Diabetes 😊!")
-        st.image(images.jpeg)
+        st.image("images.jpeg")
     else:
         st.error("You have Diabetes 😥!")
-        st.image(sad diabetes.jpg)
+        st.image("sad diabetes.jpg")
