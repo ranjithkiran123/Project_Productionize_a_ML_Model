@@ -6,8 +6,8 @@ from pickle import load
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 
-scaler = load(open(r"C:\Users\A.Ranjith Kiran\DATA\models\std.pkl", 'rb'))
-lr = load(open(r"C:\Users\A.Ranjith Kiran\DATA\models\lr_model.pkl", 'rb'))
+scaler = load(open(r"models\std.pkl", 'rb'))
+lr = load(open(r"models\lr_model.pkl", 'rb'))
 
 st.title(":Blue[Diabetes Prediction]")
 
